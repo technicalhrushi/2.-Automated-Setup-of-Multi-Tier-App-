@@ -1,0 +1,31 @@
+Reference for Notes : https://www.youtube.com/watch?v=NR_A2gCxaLE&list=PLQbQOmlGYH3sxlq9ugoq1ipNFP7tus5Gd&index=3&t=2125s
+mkdir - to create a directory
+rmdir - remove directory
+git init - to initialize present folder as a Git
+git add - to add it into staging area, where they can track the changes (Ex: git add HeaderV1.html)
+git diff - to check the changes made in the code
+git status - to check the program files that are added into Git
+git log --oneline - to check the changes 
+git config --global user.email "hrushigatpelli9@gmail.com" - it is used to config the identity before commiting[link in case of error: https://www.youtube.com/watch?v=dRNcbhx2698]
+git config --local user.name "Hrushikesh" - it is used to config the identity before commiting
+git config --list - it is used to check you name in the config list
+git commit - it is used to commit the changes into the local repository (Ex: git commit -HeaderV1.html)
+           -a we use it as an all (Ex: git commit -HeaderV1.html -a)
+		   -m we use it to write message (Ex: git commit -a -m 'first commit')
+git remote add <repository name> <repository url> - It is used to connect git with remote repository.(Ex : git remote add DevOpPrac https://github.com/hrushigatpelli9/DevOpPrac.git)
+git push <repository name> master - It is used to push the code into remote repository (Ex: git push DevOpPrac master) [Link in case of error: https://www.youtube.com/watch?v=WCTzGrUVk5M]
+git branch <branch name> - It is used to create a new branch
+git branch - to check the list of branches
+git push -u <branchname> - to push it into the specific branch
+git checkout <branch name> - It is used to change the branch
+git merge <branch name> - it is used to merge 2 different branches
+git mergetool - it will come in handy once we face an issue of Merge Conflict
+
+git mv <filename><filename> - it is used to rename the filename
+git rm <filename> - to delete the file
+git restore <filename> - to restore all the changes
+git commit --amend - it is used to make changes in the present/previous commit
+git reset <hash number> - to reset the commit
+git rebase <branch>/<commit>
+git switch <branchname> - to switch the branchline
+git checkout main - to switch to main branch
