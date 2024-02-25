@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo yum install dnf
 sudo dnf install epel-release -y
 sudo dnf install memcached -y
 sudo systemctl start memcached
